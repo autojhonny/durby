@@ -8,5 +8,6 @@ export default defineConfig({
     viewTransitions: true,
   },
   site: 'https://autojhonny.github.io',
+  base: '/durby',
   integrations: [tailwind(), compress()],
 });
